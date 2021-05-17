@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/unit-converter/static/css/main.a065fa91.chunk.css",
+    "main.js": "/unit-converter/static/js/main.22e70ce5.chunk.js",
+    "main.js.map": "/unit-converter/static/js/main.22e70ce5.chunk.js.map",
+    "runtime-main.js": "/unit-converter/static/js/runtime-main.70b19465.js",
+    "runtime-main.js.map": "/unit-converter/static/js/runtime-main.70b19465.js.map",
+    "static/css/2.d5d954b1.chunk.css": "/unit-converter/static/css/2.d5d954b1.chunk.css",
+    "static/js/2.c451b1e1.chunk.js": "/unit-converter/static/js/2.c451b1e1.chunk.js",
+    "static/js/2.c451b1e1.chunk.js.map": "/unit-converter/static/js/2.c451b1e1.chunk.js.map",
+    "static/js/3.2fac045d.chunk.js": "/unit-converter/static/js/3.2fac045d.chunk.js",
+    "static/js/3.2fac045d.chunk.js.map": "/unit-converter/static/js/3.2fac045d.chunk.js.map",
+    "index.html": "/unit-converter/index.html",
+    "static/css/2.d5d954b1.chunk.css.map": "/unit-converter/static/css/2.d5d954b1.chunk.css.map",
+    "static/css/main.a065fa91.chunk.css.map": "/unit-converter/static/css/main.a065fa91.chunk.css.map",
+    "static/js/2.c451b1e1.chunk.js.LICENSE.txt": "/unit-converter/static/js/2.c451b1e1.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/unit-converter/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70b19465.js",
+    "static/css/2.d5d954b1.chunk.css",
+    "static/js/2.c451b1e1.chunk.js",
+    "static/css/main.a065fa91.chunk.css",
+    "static/js/main.22e70ce5.chunk.js"
+  ]
+}
