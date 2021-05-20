@@ -4,9 +4,9 @@ import Main from './components/Main';
 import {BrowserRouter} from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faHome, faRuler,faUserMd,faWeight } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faRuler,faUserMd,faWeight,faChartArea } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faHome, faRuler,faUserMd,faWeight);
+library.add(fab, faHome, faRuler,faUserMd,faWeight,faChartArea);
 
 class App extends Component {
     render() {

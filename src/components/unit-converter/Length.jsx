@@ -21,13 +21,13 @@ class Length extends Component {
 
     handleCmChange(e) {
         this.setState({
-            m: e.target.value
+            cm: e.target.value
         });
         this.calculate('cm', e.target.value);
     }
     handleInChange(e) {
         this.setState({
-            ft: e.target.value
+            in: e.target.value
         });
         this.calculate('in', e.target.value);
     }

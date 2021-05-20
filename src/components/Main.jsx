@@ -7,6 +7,7 @@ import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
 import Length from "./unit-converter/Length";
 import Weight from "./unit-converter/Weight";
 import Bmi from './unit-converter/Bmi';
+import Area from "./unit-converter/Area";
 
 
 class Main extends Component{
@@ -22,6 +23,8 @@ class Main extends Component{
                                 <Route exact path='/unit-converter/bmi' component={()=><Bmi/>}/>
                                 <Route exact path='/unit-converter/length' component={()=><Length/>}/>
                                 <Route exact path='/unit-converter/weight' component={()=><Weight/>}/>
+                                <Route exact path='/unit-converter/area' component={()=><Area/>}/>
+
                                 <Redirect to="/unit-converter" />
                             </Switch>
                         </CSSTransition>

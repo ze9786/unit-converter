@@ -36,6 +36,9 @@ class Header extends Component {
                             <NavItem>
                                 <NavLink className="nav-link" to='/unit-converter/weight' onClick={this.toggleNav}><FontAwesomeIcon icon="weight"/> 重量轉換器</NavLink>
                             </NavItem>
+                            <NavItem>
+                                <NavLink className="nav-link" to='/unit-converter/area' onClick={this.toggleNav}><FontAwesomeIcon icon="chart-area"/> 面積轉換器</NavLink>
+                            </NavItem>
                         </Nav>
                         
                     </Collapse>
