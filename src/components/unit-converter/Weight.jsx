@@ -142,7 +142,7 @@ class Weight extends Component {
         return (
             <div className="container">
                    <Breadcrumb>
-                    <BreadcrumbItem><Link to="/home">主頁</Link></BreadcrumbItem>
+                    <BreadcrumbItem><Link to="/unit-converter">主頁</Link></BreadcrumbItem>
                     <BreadcrumbItem active>重量轉換器</BreadcrumbItem>
                 </Breadcrumb>
                 <div className="row row-content">

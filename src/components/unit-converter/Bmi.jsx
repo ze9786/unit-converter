@@ -1,4 +1,7 @@
 import { Component } from "react";
+import { Breadcrumb, BreadcrumbItem } from "reactstrap";
+import { Link } from "react-router-dom";
+
 
 class Bmi extends Component{
     constructor() {
@@ -65,8 +68,11 @@ class Bmi extends Component{
         let results=this.getBMIResults(bmi);
         return (
             <div className="container">
-               <h1>BMI 計算器</h1>
-                <div className="row row-content">
+                <Breadcrumb>
+                    <BreadcrumbItem><Link to="/unit-converter">主頁</Link></BreadcrumbItem>
+                    <BreadcrumbItem active>BMI計算器</BreadcrumbItem>
+                </Breadcrumb>               
+                 <div className="row row-content">
                 <div className="col-4 col-sm-3"></div> 
                 <div className="col-sm-9">
             <form>

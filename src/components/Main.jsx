@@ -4,9 +4,9 @@ import Footer from "./Footer";
 import Home from "./Home";
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
-import Bmi from "./Bmi";
-import Length from "./Length";
-import Weight from "./Weight";
+import Length from "./unit-converter/Length";
+import Weight from "./unit-converter/Weight";
+import Bmi from './unit-converter/Bmi';
 
 
 class Main extends Component{
@@ -18,11 +18,11 @@ class Main extends Component{
                     <TransitionGroup>
                         <CSSTransition key={this.props.location.key} classNames="page" timeout={300}>
                             <Switch location={this.props.location}>
-                                <Route path='/home' component={()=><Home/>}/>
-                                <Route exact path='/bmi' component={()=><Bmi/>}/>
-                                <Route exact path='/length' component={()=><Length/>}/>
-                                <Route exact path='/weight' component={()=><Weight/>}/>
-                                <Redirect to="/home" />
+                                <Route exact path='/unit-converter' component={()=><Home/>}/>
+                                <Route exact path='/unit-converter/bmi' component={()=><Bmi/>}/>
+                                <Route exact path='/unit-converter/length' component={()=><Length/>}/>
+                                <Route exact path='/unit-converter/weight' component={()=><Weight/>}/>
+                                <Redirect to="/unit-converter" />
                             </Switch>
                         </CSSTransition>
                     </TransitionGroup>

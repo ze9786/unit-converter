@@ -25,16 +25,16 @@ class Header extends Component {
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar>
                             <NavItem>
-                                <NavLink className="nav-link" to='/home' onClick={this.toggleNav}><FontAwesomeIcon icon="home"/> 主頁</NavLink>
+                                <NavLink className="nav-link" to='/unit-converter' onClick={this.toggleNav}><FontAwesomeIcon icon="home"/> 主頁</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to='/bmi' onClick={this.toggleNav}><FontAwesomeIcon icon="user-md" /> BMI計算器</NavLink>
+                                <NavLink className="nav-link" to='/unit-converter/bmi' onClick={this.toggleNav}><FontAwesomeIcon icon="user-md" /> BMI計算器</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to='/length' onClick={this.toggleNav}><FontAwesomeIcon icon="ruler"/> 長度轉換器</NavLink>
+                                <NavLink className="nav-link" to='/unit-converter/length' onClick={this.toggleNav}><FontAwesomeIcon icon="ruler"/> 長度轉換器</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to='/weight' onClick={this.toggleNav}><FontAwesomeIcon icon="weight"/> 重量轉換器</NavLink>
+                                <NavLink className="nav-link" to='/unit-converter/weight' onClick={this.toggleNav}><FontAwesomeIcon icon="weight"/> 重量轉換器</NavLink>
                             </NavItem>
                         </Nav>
                         
