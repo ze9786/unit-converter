@@ -4,7 +4,6 @@
 }
 
 .row-content {
-  border-bottom: 1px ridge;
   padding-left: 3%;
   padding-right: 3%;
   min-height:450px;
@@ -13,7 +12,7 @@
 .footer{
   background-color: #D1C4E9;
   margin:0px auto;
-  padding: 20px 0px 0px 0px;
+  padding: 20px;
 }
 .jumbotron {
   padding:70px 30px 70px 30px;
@@ -22,14 +21,14 @@
   color:#9575CD;
 }
 .container{
-  padding:20px 0px 20px 0px;
+  padding:80px 0px 20px 20px;
   overflow-y:auto;
   height:80%;
 }
 
 .header{
-  padding:0px 50px 0px 20px;
-
+  padding:0px 20px 0px 20px;
+  overflow-y:auto;
 }
 
 .navbar-dark {

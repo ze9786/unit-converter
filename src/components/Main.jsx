@@ -24,8 +24,7 @@ class Main extends Component{
                                 <Route exact path='/unit-converter/length' component={()=><Length/>}/>
                                 <Route exact path='/unit-converter/weight' component={()=><Weight/>}/>
                                 <Route exact path='/unit-converter/area' component={()=><Area/>}/>
-
-                                <Redirect to="/unit-converter" />
+                                <Redirect exact to="/unit-converter" />
                             </Switch>
                         </CSSTransition>
                     </TransitionGroup>

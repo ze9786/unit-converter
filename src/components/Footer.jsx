@@ -5,9 +5,8 @@ import { Link } from 'react-router-dom';
 function Footer(props) {
     return(
     <div className="footer">
-        <div className="container">
             <div className="row justify-content-center">             
-                <div className="col-2 offset-1 col-sm-2">
+                <div className="col-6 col-sm-2">
                     <h6>網站指南</h6>
                     <ul className="list-unstyled">
                     <li><Link to='/unit-converter'>主頁</Link></li>
@@ -16,7 +15,7 @@ function Footer(props) {
 
                     </ul>
                 </div>
-                <div className="col-12 col-sm-4 align-self-center">
+                <div className="col-6 col-sm-4 align-self-center">
                 <h6>容積/面積</h6>
                     <ul className="list-unstyled">
                         <li><Link to='/unit-converter/length'>長度</Link></li>
@@ -26,10 +25,9 @@ function Footer(props) {
             </div>
             <div className="row justify-content-center">             
                 <div className="col-auto">
-                    <p>© Copyright 2021 <a href="">Zelina TO</a></p>
+                    <p>© Copyright 2021 <a href="https://zelinato.com">Zelina TO</a></p>
                 </div>
             </div>
-        </div>
     </div>
     )
 }
