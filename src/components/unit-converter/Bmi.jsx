@@ -101,6 +101,12 @@ class Bmi extends Component{
           </div>
           <div className="col-sm-3"></div> 
         </div>
+        <div className="jumbotron">
+          <h4>BMI是什麼？</h4>
+          <p>身體質量指數（Body Mass Index, BMI）,用來衡量肥胖程度</p>
+          <h4>BMI公式</h4>
+          <p>BMI=kg/m²</p>
+        </div>
         </div>
         );
     }

@@ -46,25 +46,25 @@ class Length extends Component {
     calculate(_value, num) {
             switch(_value){
                 case "m": this.setState({
-                    ft: num*3.28084,
+                    ft: num*3.281,
                     cm: num*100,
-                    in: num/0.0254
+                    in: num*39.37
                 });
                 break;
                 case 'ft':this.setState({
-                    m:num/3.28084,
-                    cm: num/30.48,
+                    m:num/3.281,
+                    cm: num*30.48,
                     in:num*12
                 });
                 break;
                 case "cm": this.setState({
-                    ft: num*3.28084,
-                    m: num*10,
+                    ft: num/30.48,
+                    m: num/100,
                     in:num/2.54
                 });
                 break;
                 case 'in':this.setState({
-                    m:num/3.28084,
+                    m:num/39.37,
                     cm:num*2.54,
                     ft:num/12,
                 });
@@ -76,7 +76,8 @@ class Length extends Component {
         return (
             <div className="container">
                    <Breadcrumb>
-                    <BreadcrumbItem><Link to="/unit-converter">主頁</Link></BreadcrumbItem>
+                    <BreadcrumbItem><Link to="/">主頁</Link></BreadcrumbItem>
+                    <BreadcrumbItem><Link to="/">容積/面積</Link></BreadcrumbItem>
                     <BreadcrumbItem active>長度轉換器</BreadcrumbItem>
                 </Breadcrumb>
                 <div className="row row-content">

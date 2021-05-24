@@ -8,11 +8,11 @@ class Weight extends Component {
         this.state = {
             kg: '',
             g: '',
-            t:'',
-            lb:'',
-            oz:'',
-            jin:'',
-            tael:'',
+            t: '',
+            lb: '',
+            oz: '',
+            jin: '',
+            tael: '',
         }
         this.handleKgChange = this.handleKgChange.bind(this);
         this.handleGChange = this.handleGChange.bind(this);
@@ -70,78 +70,78 @@ class Weight extends Component {
         this.calculate('tael', e.target.value);
     }
     calculate(_value, num) {
-            switch(_value){
-                case "kg": this.setState({
-                    g: num*1000,
-                    t: num/1000,
-                    lb: num*2.204,
-                    oz: num*35.274,
-                    jin:num/1.653,
-                    tael:num*26.45
-                });
+        switch (_value) {
+            case "kg": this.setState({
+                g: num * 1000,
+                t: num / 1000,
+                lb: num * 2.204,
+                oz: num * 35.274,
+                jin: num / 1.653,
+                tael: num * 26.45
+            });
                 break;
-                case "g": this.setState({
-                    kg: num/1000,
-                    t: num/1000000,
-                    lb: num/454,
-                    oz: num*28.35,
-                    jin:num/500,
-                    tael:num/37.79
-                });
+            case "g": this.setState({
+                kg: num / 1000,
+                t: num / 1000000,
+                lb: num / 454,
+                oz: num * 28.35,
+                jin: num / 500,
+                tael: num / 37.79
+            });
                 break;
-                case "t": this.setState({
-                    g: num*1000000,
-                    kg: num*1000,
-                    lb: num*2205,
-                    oz: num*35274,
-                    jin:num*1653,
-                    tael:num*26888.97
-                });
+            case "t": this.setState({
+                g: num * 1000000,
+                kg: num * 1000,
+                lb: num * 2205,
+                oz: num * 35274,
+                jin: num * 1653,
+                tael: num * 26888.97
+            });
                 break;
-                case "lb": this.setState({
-                    g: num*454,
-                    t: num/2205,
-                    kg: num/2.205,
-                    oz: num*16,
-                    jin:num/1.653,
-                    tael:num*12
-                });
+            case "lb": this.setState({
+                g: num * 454,
+                t: num / 2205,
+                kg: num / 2.205,
+                oz: num * 16,
+                jin: num / 1.653,
+                tael: num * 12
+            });
                 break;
-                case "oz": this.setState({
-                    g: num/28.35,
-                    t: num/35274,
-                    lb: num/16,
-                    kg: num/35.274,
-                    jin:num/1.653,
-                    tael:num*1.33
-                });
+            case "oz": this.setState({
+                g: num / 28.35,
+                t: num / 35274,
+                lb: num / 16,
+                kg: num / 35.274,
+                jin: num / 1.653,
+                tael: num * 1.33
+            });
                 break;
-                case "jin": this.setState({
-                    g: num*500,
-                    t: num/2205,
-                    kg: num/2.205,
-                    oz: num*16,
-                    lb:num*1.653,
-                    tael:num*10
-                });
+            case "jin": this.setState({
+                g: num * 500,
+                t: num / 2205,
+                kg: num / 2.205,
+                oz: num * 16,
+                lb: num * 1.653,
+                tael: num * 10
+            });
                 break;
-                case "tael": this.setState({
-                    g: num*37.49,
-                    t: num/26888.97,
-                    lb: num/12,
-                    kg: num/26.45,
-                    jin:num/10,
-                    oz:num/1.33
-                });
+            case "tael": this.setState({
+                g: num * 37.49,
+                t: num / 26888.97,
+                lb: num / 12,
+                kg: num / 26.45,
+                jin: num / 10,
+                oz: num / 1.33
+            });
                 break;
-            
-            }
+
+        }
 
     }
     render() {
         return (
             <div className="container">
-                   <Breadcrumb>
+                <Breadcrumb>
                     <BreadcrumbItem><Link to="/unit-converter">主頁</Link></BreadcrumbItem>
                     <BreadcrumbItem active>重量轉換器</BreadcrumbItem>
                 </Breadcrumb>
@@ -168,7 +168,7 @@ class Weight extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <br/>
+                            <br />
                             <div className="row">
                                 <div className="form-group col-6">
                                     <legend>噸</legend>
@@ -188,8 +188,8 @@ class Weight extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                </div>
-                                <div className="row">
+                            </div>
+                            <div className="row">
                                 <div className="form-group col-6">
                                     <legend>盎司</legend>
                                     <div className="row">
@@ -219,9 +219,14 @@ class Weight extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                </div>
+                            </div>
                         </form>
                     </div>
+                </div>
+                <div className="jumbotron">
+                    <h4>重量轉換表</h4>
+                    <table>
+                    </table>
                 </div>
             </div>
         );

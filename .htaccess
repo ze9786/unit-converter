@@ -1,7 +1,7 @@
 RewriteEngine on
 
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.zelinato.com/$1 [R,L]
+RewriteRule ^(.*)$ https://unitconverter.zelinato.com/$1 [R,L]
 
 # Don't rewrite files or directories
 RewriteCond %{REQUEST_FILENAME} -f [OR]

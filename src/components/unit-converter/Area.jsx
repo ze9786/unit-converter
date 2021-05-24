@@ -76,7 +76,8 @@ class Area extends Component {
         return (
             <div className="container">
                    <Breadcrumb>
-                    <BreadcrumbItem><Link to="/unit-converter">主頁</Link></BreadcrumbItem>
+                    <BreadcrumbItem><Link to="/">主頁</Link></BreadcrumbItem>
+                    <BreadcrumbItem><Link to="/">容積/面積</Link></BreadcrumbItem>
                     <BreadcrumbItem active>面積轉換器</BreadcrumbItem>
                 </Breadcrumb>
                 <div className="row row-content">

@@ -9,17 +9,18 @@ function Footer(props) {
                 <div className="col-6 col-sm-2">
                     <h6>網站指南</h6>
                     <ul className="list-unstyled">
-                    <li><Link to='/unit-converter'>主頁</Link></li>
-                        <li><Link to='/unit-converter/bmi'>BMI計算器</Link></li>
-                        <li><Link to='/unit-converter/weight'>重量</Link></li>
+                    <li><Link to='/'>主頁</Link></li>
+                        <li><Link to='/bmi'>BMI計算器</Link></li>
+                        <li><Link to='/weight'>重量</Link></li>
 
                     </ul>
                 </div>
                 <div className="col-6 col-sm-4 align-self-center">
                 <h6>容積/面積</h6>
                     <ul className="list-unstyled">
-                        <li><Link to='/unit-converter/length'>長度</Link></li>
-                        <li><Link to='/unit-converter/area'>面積</Link></li>
+                        <li><Link to='/length'>長度</Link></li>
+                        <li><Link to='/area'>面積</Link></li>
+                        <li><Link to='/volume'>容量</Link></li>
                     </ul>
                 </div>
             </div>
