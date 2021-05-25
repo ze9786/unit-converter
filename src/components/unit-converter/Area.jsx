@@ -127,6 +127,13 @@ class Area extends Component {
                         </form>
                     </div>
                 </div>
+                <div className="jumbotron">
+                    <h4>面積</h4>
+                    <div className="row">
+                        <div className="col-12 col-md-4">1平方米=10000平方厘米</div>
+                        <div className="col-12 col-md-4">1平方尺=144平方吋</div>
+                    </div>    
+                </div>
             </div>
         );
     }

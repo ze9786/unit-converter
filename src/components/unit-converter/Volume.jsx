@@ -128,6 +128,14 @@ class Volume extends Component {
                         </form>
                     </div>
                 </div>
+                <div className="jumbotron">
+                    <h4>容量轉換</h4>
+                    <div className="row">
+                        <div className="col-12 col-md-4">1公升=1000毫升=1000立方厘米</div>
+                        <div className="col-12 col-md-4">1立方米=1000000立方厘米</div>
+                        <div className="col-12 col-md-4">1毫升=1立方厘米</div>
+                    </div>    
+                </div>
             </div>
         );
     }

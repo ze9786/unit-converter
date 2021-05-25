@@ -127,6 +127,14 @@ class Length extends Component {
                         </form>
                     </div>
                 </div>
+                <div className="jumbotron">
+                    <h4>長度對換</h4>
+                    <div className="row">
+                        <div className="col-12 col-md-4">1米=100厘米=3.281尺</div>
+                        <div className="col-12 col-md-4">1尺=12吋</div>
+                        <div className="col-12 col-md-4">1吋=2.54厘米</div>
+                    </div>    
+                </div>
             </div>
         );
     }

@@ -1,6 +1,7 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
 import { Breadcrumb, BreadcrumbItem } from "reactstrap";
+import DenseTable from "../../tables/WeightTable";
 
 class Weight extends Component {
     constructor() {
@@ -224,9 +225,14 @@ class Weight extends Component {
                     </div>
                 </div>
                 <div className="jumbotron">
-                    <h4>重量轉換表</h4>
-                    <table>
-                    </table>
+                <h4>常用重量</h4>
+                    <DenseTable/>
+                    <hr/>
+                    <h4>其他重量</h4>
+                    <div className="row">
+                        <div className="col-12 col-md-3">1斤=10兩=500克</div>
+                        <div className="col-12 col-md-3">1噸=1000公斤</div>
+                    </div>    
                 </div>
             </div>
         );
